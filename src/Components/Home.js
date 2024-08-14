@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "NavBar";
-import DestinationCard from "DestinationCard";
-import DestinationList from "DestinationList";
+import DestinationList from "./DestinationList";
 
 function Home() {
   return (
@@ -10,8 +9,9 @@ function Home() {
         <NavBar />
       </header>
       <main>
-        <DestinationCard />
+        
         <DestinationList />
+        
       </main>
       <footer className="bg-gray-200 py-footer-padding text-center">
         <div className="social-media">

@@ -52,7 +52,7 @@ function Contact() {
         href="#"
         className="text-blue-600 hover:text-blue-800 transition duration-100"
       >
-        <FaFacebookF size={30} />
+        <FaFacebook size={30} />
       </a>
       <a
         href="#"

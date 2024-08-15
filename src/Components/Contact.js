@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './Components/NavBar';
-import {
+import { 
   FaFacebook,
   FaTwitter,
   FaLinkedinIn,
@@ -21,7 +21,7 @@ function Contact() {
     <main>
     <div className='bg-[url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723420800&semt=ais_hybrid")] bg-cover bg-center h-screen'>
     <h2 className="italic text bg-gray-800 text-2xl font-bold mb-4">
-      Get In Touch With Us
+      Get In Touch 
     </h2>
     <form className="space-y-9" onSubmit={handleOnSubmit}>
       <input
